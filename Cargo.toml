@@ -33,7 +33,7 @@ ra_ap_proc_macro_api = "=0.0.101"
 ra_ap_proc_macro_srv = "=0.0.101"
 ra_ap_tt = "=0.0.101"
 rand = "0.8.5"
-rustminify = "0.1.0"
+rustminify = { rev = "516041d", git = "https://github.com/mizar/rustminify.git" }
 semver = { version = "1.0.6", features = ["serde"] }
 serde = { version = "1.0.136", features = ["derive"] }
 serde_json = "1.0.79"
